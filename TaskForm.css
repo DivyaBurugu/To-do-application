@@ -1,0 +1,60 @@
+.task-form {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .task-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .task-form-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .task-form-modal.open {
+    display: flex;
+  }
+  
+  .task-form-modal input,
+  .task-form-modal textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-form-modal button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .task-form-modal .close-modal {
+    background-color: #dc3545;
+    margin-top: 10px;
+  }
+  
